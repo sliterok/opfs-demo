@@ -1,3 +1,3 @@
-import { DedicatedWorkerController } from 'lib'
+import { DedicatedWorkerController } from 'opfsdb/workers/DedicatedWorkerController'
 
 new DedicatedWorkerController()

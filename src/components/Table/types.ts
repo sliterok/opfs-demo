@@ -1,4 +1,4 @@
-import { ITableKeys } from 'lib'
+import { ITableKeys } from 'opfsdb'
 
 export interface IConfig {
 	keys: ITableKeys

@@ -1,3 +1,3 @@
-import { SharedWorkerController } from 'lib'
+import { SharedWorkerController } from 'opfsdb/workers/SharedWorkerController'
 
 new SharedWorkerController()
