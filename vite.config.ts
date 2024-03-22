@@ -6,10 +6,7 @@ import path from 'path'
 
 export default defineConfig({
 	resolve: {
-		alias: [
-			{ find: 'buffer', replacement: path.resolve(__dirname, 'src', 'buffer') },
-			{ find: 'lib', replacement: path.resolve(__dirname, 'lib', 'index') },
-		],
+		alias: [{ find: 'buffer', replacement: path.resolve(__dirname, 'src', 'buffer') }],
 	},
 	plugins: [
 		tsconfigPaths(),

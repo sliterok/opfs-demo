@@ -39,6 +39,7 @@
     "vite-tsconfig-paths": "^4.3.1"
   },
   "dependencies": {
+    "opfsdb": "^1.0.4",
     "serializable-bptree": "^3.2.2"
   }
 }
